@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from blickfeld_driver/srv/SetScanPattern.srv
+// generated code does not contain a copyright notice
+
+
+module blickfeld_driver {
+  module srv {
+    module SetScanPattern_Request_Constants {
+      const string COMBINE_UP_DOWN = "COMBINE_UP_DOWN";
+      const string ONLY_UP = "ONLY_UP";
+      const string ONLY_DOWN = "ONLY_DOWN";
+      const string SEPARATE = "SEPARATE";
+      const string EQUI_HORIZONTAL_ANGLE = "EQUI_HORIZONTAL_ANGLE";
+      const string INTERLEAVE = "INTERLEAVE";
+    };
+    struct SetScanPattern_Request {
+      @verbatim (language="comment", text=
+        " in deg")
+      float fov_horizontal;
+
+      @verbatim (language="comment", text=
+        " in deg")
+      float fov_vertical;
+
+      @verbatim (language="comment", text=
+        " in deg")
+      float angle_spacing;
+
+      uint16 scanlines_up;
+
+      uint16 scanlines_down;
+
+      string frame_mode;
+
+      string pulse_type;
+    };
+    struct SetScanPattern_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,7 @@
+{
+  "package_name": "blickfeld_driver",
+  "non_idl_tuples": [
+    "/home/jeongil/blickfeld_ws/src/ros2_blickfeld_driver:srv/ImuStaticTransformation.srv",
+    "/home/jeongil/blickfeld_ws/src/ros2_blickfeld_driver:srv/SetScanPattern.srv"
+  ]
+}
