@@ -14,7 +14,7 @@ class PCPub(Node):
         self.pointcloudSub = self.create_subscription(PointCloud2, '/bf_lidar/point_cloud_out', self.get_point_cloud, 10)
 
         self.pointcloudPub = self.create_publisher(PointCloud2, 'point_cloud_topic', 10)
-        self.pointcloudTimer = self.create_timer(0.5, self.publish_point_cloud)
+        self.pointcloudTimer = self.create_timer(0.05, self.publish_point_cloud)
 
         # self.pointcloud = None
         self.pointRANSAC = None
@@ -26,13 +26,14 @@ class PCPub(Node):
             pcd.points = o3d.utility.Vector3dVector(pointcloud)
             # downsampling
             pcd_down = pcd.voxel_down_sample(voxel_size=0.02)
-            # remove outlier
-            pcd_remove, inliers = pcd_down.remove_radious_outlier(nb_points=16, radius=0.1)
-            # segmet plane with RANSAC
-            plane_model, road_inliers = pcd_remove.segment_plane(distance_threshol=0.1, ransac_n=5, num_iterations=500)
-            pcd_ransac = pcd_remove.select_by_index(road_inliers, invert=True)
+            # remove outliers
+            pcd_remove, inliers = pcd_down.remove_radius_outlier(nb_points=16, radius=0.1)
+            # segment plane with RANSAC
+            plane_model, road_inliers = pcd_remove.segment_plane(distance_threshold=0.08, ransac_n=6, num_iterations=700)
+            pcd_RANSAC = pcd_remove.select_by_index(road_inliers, invert=True)
 
-            self.pointRANSAC = np.asarray(pcd_ransac.points).astype(np.float32)
+
+            self.pointRANSAC = np.asarray(pcd_RANSAC.points).astype(np.float32)
 
         except:
             pass
@@ -78,7 +79,6 @@ class PCPub(Node):
             msg.is_dense = False
 
             self.pointcloudPub.publish(msg)
-
 
 def main(args=None):
     rclpy.init(args=args)
