@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver
+# Source directory: /home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver
 # Build directory: /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver
 # 
 # This file includes the relevant testing commands required for 

@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -Wextra -Wpedantic -std=c++14
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"blickfeld_driver\" -DSPDLOG_COMPILED_LIB -Dblickfeld_driver_lib_EXPORTS
 
-CXX_INCLUDES = -I/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/include -I/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/modules/ros_blickfeld_driver_core/include -I/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_generator_cpp -isystem /opt/ros/foxy/include -isystem /usr/include/opencv4 -isystem /usr/include/eigen3 
+CXX_INCLUDES = -I/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/include -I/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/modules/ros_blickfeld_driver_core/include -I/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_generator_cpp -isystem /opt/ros/foxy/include -isystem /usr/include/opencv4 -isystem /usr/include/eigen3 
 

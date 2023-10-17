@@ -1,0 +1,106 @@
+[0.175s] Invoking command in '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(blickfeld) /usr/bin/cmake /home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver -DCMAKE_INSTALL_PREFIX=/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver
+[0.204s] -- The C compiler identification is GNU 9.4.0
+[0.233s] -- The CXX compiler identification is GNU 9.4.0
+[0.236s] -- Check for working C compiler: /usr/bin/cc
+[0.272s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.273s] -- Detecting C compiler ABI info
+[0.311s] -- Detecting C compiler ABI info - done
+[0.317s] -- Detecting C compile features
+[0.317s] -- Detecting C compile features - done
+[0.318s] -- Check for working CXX compiler: /usr/bin/c++
+[0.361s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.361s] -- Detecting CXX compiler ABI info
+[0.403s] -- Detecting CXX compiler ABI info - done
+[0.409s] -- Detecting CXX compile features
+[0.410s] -- Detecting CXX compile features - done
+[0.411s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.424s] -- Found PythonInterp: /home/jeongil/anaconda3/envs/blickfeld/bin/python3 (found suitable version "3.7.10", minimum required is "3") 
+[0.424s] -- Using PYTHON_EXECUTABLE: /home/jeongil/anaconda3/envs/blickfeld/bin/python3
+[0.522s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.526s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.552s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.556s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.598s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.614s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.657s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.689s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.690s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.691s] -- Looking for pthread.h
+[0.731s] -- Looking for pthread.h - found
+[0.732s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.784s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.784s] -- Looking for pthread_create in pthreads
+[0.834s] -- Looking for pthread_create in pthreads - not found
+[0.835s] -- Looking for pthread_create in pthread
+[0.909s] -- Looking for pthread_create in pthread - found
+[0.910s] -- Found Threads: TRUE  
+[1.003s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.037s] -- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+[1.057s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.077s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.119s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.124s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[1.136s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.152s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.159s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.316s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.321s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.323s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.348s] CMake Warning at /usr/share/cmake-3.16/Modules/FindProtobuf.cmake:499 (message):
+[1.348s]   Protobuf compiler version doesn't match library version 3.6.1
+[1.348s] Call Stack (most recent call first):
+[1.348s]   /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[1.348s]   /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:8 (find_dependency)
+[1.348s]   CMakeLists.txt:44 (find_package)
+[1.348s] 
+[1.348s] 
+[1.349s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3.6.1") 
+[1.354s] CMake Warning at /usr/share/cmake-3.16/Modules/FindProtobuf.cmake:499 (message):
+[1.354s]   Protobuf compiler version doesn't match library version 3.6.1
+[1.354s] Call Stack (most recent call first):
+[1.354s]   /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[1.354s]   /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:8 (find_dependency)
+[1.354s]   /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner.cmake:69 (include)
+[1.354s]   /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:40 (include)
+[1.354s]   CMakeLists.txt:44 (find_package)
+[1.354s] 
+[1.354s] 
+[1.368s] -- Found PythonInterp: /home/jeongil/anaconda3/envs/blickfeld/bin/python3 (found version "3.7.10") 
+[1.390s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[1.390s]   execute_process(/home/jeongil/anaconda3/envs/blickfeld/bin/python3 -m
+[1.390s]   rosidl_adapter --package-name blickfeld_driver --arguments-file
+[1.390s]   /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_adapter__arguments__blickfeld_driver.json
+[1.390s]   --output-dir
+[1.390s]   /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_adapter/blickfeld_driver
+[1.390s]   --output-file
+[1.390s]   /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_adapter/blickfeld_driver.idls)
+[1.390s]   returned error code 1:
+[1.391s] 
+[1.391s]   Traceback (most recent call last):
+[1.391s] 
+[1.391s]     File "/home/jeongil/anaconda3/envs/blickfeld/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+[1.391s]       "__main__", mod_spec)
+[1.391s]     File "/home/jeongil/anaconda3/envs/blickfeld/lib/python3.7/runpy.py", line 85, in _run_code
+[1.391s]       exec(code, run_globals)
+[1.391s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.391s]       sys.exit(main())
+[1.391s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 55, in main
+[1.391s]       pathlib.Path(relative_path), output_dir)
+[1.391s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 23, in convert_to_idl
+[1.391s]       from rosidl_adapter.srv import convert_srv_to_idl
+[1.391s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 16, in <module>
+[1.391s]       from rosidl_adapter.resource import expand_template
+[1.391s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[1.391s]       import em
+[1.391s] 
+[1.391s]   ModuleNotFoundError: No module named 'em'
+[1.391s] 
+[1.391s] Call Stack (most recent call first):
+[1.391s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.391s]   CMakeLists.txt:67 (rosidl_generate_interfaces)
+[1.391s] 
+[1.391s] 
+[1.392s] -- Configuring incomplete, errors occurred!
+[1.392s] See also "/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/CMakeFiles/CMakeOutput.log".
+[1.392s] See also "/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/CMakeFiles/CMakeError.log".
+[1.399s] Invoked command in '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(blickfeld) /usr/bin/cmake /home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver -DCMAKE_INSTALL_PREFIX=/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver

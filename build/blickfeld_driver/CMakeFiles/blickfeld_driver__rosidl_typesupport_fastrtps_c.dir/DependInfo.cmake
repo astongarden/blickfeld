@@ -35,8 +35,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/foxy/include/std_msgs/msg/dds_fastrtps_c"
   "/opt/ros/foxy/include/std_msgs/srv/dds_fastrtps_c"
   "/opt/ros/foxy/include/std_msgs/action/dds_fastrtps_c"
-  "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/include"
-  "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/modules/ros_blickfeld_driver_core/include"
+  "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/include"
+  "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/modules/ros_blickfeld_driver_core/include"
   "/opt/ros/foxy/include"
   "/opt/ros/foxy/include/foonathan_memory"
   )

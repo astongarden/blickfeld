@@ -19,11 +19,11 @@ set(CMAKE_TARGET_DEFINITIONS_C
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "rosidl_generator_c"
   "rosidl_generator_py"
-  "/home/jeongil/anaconda3/envs/blickfeld/include/python3.8"
+  "/home/jeongil/anaconda3/envs/blickfeld/include/python3.7m"
   "rosidl_typesupport_c"
-  "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/include"
-  "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/modules/ros_blickfeld_driver_core/include"
-  "/home/jeongil/anaconda3/envs/blickfeld/lib/python3.8/site-packages/numpy/core/include"
+  "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/include"
+  "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/modules/ros_blickfeld_driver_core/include"
+  "/home/jeongil/anaconda3/envs/blickfeld/lib/python3.7/site-packages/numpy/core/include"
   "rosidl_typesupport_introspection_c"
   "/opt/ros/foxy/include"
   )

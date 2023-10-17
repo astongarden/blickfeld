@@ -19,8 +19,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "rosidl_generator_cpp"
-  "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/include"
-  "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/modules/ros_blickfeld_driver_core/include"
+  "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/include"
+  "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/modules/ros_blickfeld_driver_core/include"
   "/opt/ros/foxy/include"
   )
 

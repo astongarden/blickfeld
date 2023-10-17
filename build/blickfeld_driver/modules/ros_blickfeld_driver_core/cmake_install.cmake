@@ -1,4 +1,4 @@
-# Install script for directory: /home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/modules/ros_blickfeld_driver_core
+# Install script for directory: /home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/modules/ros_blickfeld_driver_core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

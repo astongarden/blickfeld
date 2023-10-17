@@ -1,4 +1,4 @@
-# Install script for directory: /home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver
+# Install script for directory: /home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -243,37 +243,37 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver" TYPE FILE FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_generator_py/blickfeld_driver/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver" TYPE FILE FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_generator_py/blickfeld_driver/__init__.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/home/jeongil/anaconda3/envs/blickfeld/bin/python3" "-m" "compileall"
-        "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/__init__.py"
+        "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.7/site-packages/blickfeld_driver/__init__.py"
       )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/srv" TYPE DIRECTORY FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_generator_py/blickfeld_driver/srv/" REGEX "/[^/]*\\.py$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/srv" TYPE DIRECTORY FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_generator_py/blickfeld_driver/srv/" REGEX "/[^/]*\\.py$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-37m-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-37m-x86_64-linux-gnu.so")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-37m-x86_64-linux-gnu.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver" TYPE SHARED_LIBRARY FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_generator_py/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver" TYPE SHARED_LIBRARY FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_generator_py/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-37m-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-37m-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-37m-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-37m-x86_64-linux-gnu.so"
          OLD_RPATH "/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_generator_py/blickfeld_driver:/home/jeongil/anaconda3/envs/blickfeld/lib:/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver:/opt/ros/foxy/lib:/opt/ros/foxy/share/builtin_interfaces/cmake/../../../lib:/opt/ros/foxy/share/geometry_msgs/cmake/../../../lib:/opt/ros/foxy/share/std_msgs/cmake/../../../lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-37m-x86_64-linux-gnu.so")
     endif()
   endif()
 endif()
@@ -282,21 +282,21 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-37m-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-37m-x86_64-linux-gnu.so")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-37m-x86_64-linux-gnu.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver" TYPE SHARED_LIBRARY FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_generator_py/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver" TYPE SHARED_LIBRARY FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_generator_py/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-37m-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-37m-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-37m-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-37m-x86_64-linux-gnu.so"
          OLD_RPATH "/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_generator_py/blickfeld_driver:/home/jeongil/anaconda3/envs/blickfeld/lib:/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver:/opt/ros/foxy/lib:/opt/ros/foxy/share/builtin_interfaces/cmake/../../../lib:/opt/ros/foxy/share/geometry_msgs/cmake/../../../lib:/opt/ros/foxy/share/std_msgs/cmake/../../../lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-37m-x86_64-linux-gnu.so")
     endif()
   endif()
 endif()
@@ -305,21 +305,21 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-37m-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-37m-x86_64-linux-gnu.so")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-37m-x86_64-linux-gnu.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver" TYPE SHARED_LIBRARY FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_generator_py/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver" TYPE SHARED_LIBRARY FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_generator_py/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-37m-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-37m-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-37m-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-37m-x86_64-linux-gnu.so"
          OLD_RPATH "/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_generator_py/blickfeld_driver:/home/jeongil/anaconda3/envs/blickfeld/lib:/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver:/opt/ros/foxy/lib:/opt/ros/foxy/share/builtin_interfaces/cmake/../../../lib:/opt/ros/foxy/share/geometry_msgs/cmake/../../../lib:/opt/ros/foxy/share/std_msgs/cmake/../../../lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.7/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-37m-x86_64-linux-gnu.so")
     endif()
   endif()
 endif()
@@ -359,7 +359,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/blickfeld_driver/srv" TYPE FILE FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/srv/ImuStaticTransformation.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/blickfeld_driver/srv" TYPE FILE FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/srv/ImuStaticTransformation.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -371,7 +371,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/blickfeld_driver/srv" TYPE FILE FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/srv/SetScanPattern.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/blickfeld_driver/srv" TYPE FILE FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/srv/SetScanPattern.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -458,17 +458,17 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/" TYPE DIRECTORY FILES
-    "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/include/"
-    "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/modules/ros_blickfeld_driver_core/include/"
+    "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/include/"
+    "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/modules/ros_blickfeld_driver_core/include/"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/blickfeld_driver" TYPE DIRECTORY FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/blickfeld_driver" TYPE DIRECTORY FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/blickfeld_driver" TYPE DIRECTORY FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/blickfeld_driver" TYPE DIRECTORY FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/config")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -670,7 +670,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/blickfeld_driver" TYPE FILE FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/blickfeld_driver" TYPE FILE FILES "/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

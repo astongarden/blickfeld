@@ -1,0 +1,43 @@
+CMake Warning at /usr/share/cmake-3.16/Modules/FindProtobuf.cmake:499 (message):
+  Protobuf compiler version doesn't match library version 3.6.1
+Call Stack (most recent call first):
+  /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:8 (find_dependency)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Warning at /usr/share/cmake-3.16/Modules/FindProtobuf.cmake:499 (message):
+  Protobuf compiler version doesn't match library version 3.6.1
+Call Stack (most recent call first):
+  /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:8 (find_dependency)
+  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner.cmake:69 (include)
+  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:40 (include)
+  CMakeLists.txt:44 (find_package)
+
+
+WARNING: Target "blickfeld_driver_node" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_node" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_component" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_component" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_lib" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_lib" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+CMake Warning at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:235 (add_library):
+  Cannot generate a safe runtime search path for target
+  blickfeld_driver__rosidl_typesupport_fastrtps_c__pyext because files in
+  some directories may conflict with libraries in implicit directories:
+
+    runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/jeongil/anaconda3/envs/blickfeld/lib
+    runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/jeongil/anaconda3/envs/blickfeld/lib
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:67 (rosidl_generate_interfaces)
+
+
+WARNING: Target "blickfeld_driver_core" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_core" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.

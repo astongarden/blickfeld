@@ -1,0 +1,20 @@
+[0.461s] Invoking command in '/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_pointcloud': CONDA_PROMPT_MODIFIER=(blickfeld) PYTHONPATH=/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/prefix_override:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/blickfeld_pointcloud build --build-base /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build install --record /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/install.log --install-scripts $base/lib/blickfeld_pointcloud --single-version-externally-managed
+[0.555s] running egg_info
+[0.555s] writing ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/PKG-INFO
+[0.555s] writing dependency_links to ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/dependency_links.txt
+[0.555s] writing entry points to ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/entry_points.txt
+[0.555s] writing requirements to ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/requires.txt
+[0.555s] writing top-level names to ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/top_level.txt
+[0.572s] reading manifest file '../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/SOURCES.txt'
+[0.572s] writing manifest file '../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/SOURCES.txt'
+[0.572s] running build
+[0.572s] running build_py
+[0.572s] running install
+[0.573s] running install_lib
+[0.573s] running install_data
+[0.573s] running install_egg_info
+[0.574s] removing '/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud-0.0.0-py3.8.egg-info' (and everything under it)
+[0.574s] Copying ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info to /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud-0.0.0-py3.8.egg-info
+[0.575s] running install_scripts
+[0.583s] writing list of installed files to '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/install.log'
+[0.593s] Invoked command in '/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_pointcloud' returned '0': CONDA_PROMPT_MODIFIER=(blickfeld) PYTHONPATH=/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/prefix_override:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/blickfeld_pointcloud build --build-base /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build install --record /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/install.log --install-scripts $base/lib/blickfeld_pointcloud --single-version-externally-managed

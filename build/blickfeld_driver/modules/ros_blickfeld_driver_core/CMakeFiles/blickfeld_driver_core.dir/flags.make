@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -Wextra -Wpedantic -std=c++14
 
 CXX_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"blickfeld_driver\" -Dblickfeld_driver_core_EXPORTS
 
-CXX_INCLUDES = -I/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/include -I/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver/modules/ros_blickfeld_driver_core/include -I/usr/include/eigen3 -isystem /usr/include/opencv4 -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/include -I/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver/modules/ros_blickfeld_driver_core/include -I/usr/include/eigen3 -isystem /usr/include/opencv4 -isystem /opt/ros/foxy/include 
 

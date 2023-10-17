@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver
+CMAKE_SOURCE_DIR = /home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver

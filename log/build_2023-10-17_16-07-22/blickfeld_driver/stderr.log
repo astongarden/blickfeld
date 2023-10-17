@@ -1,0 +1,52 @@
+CMake Warning at /usr/share/cmake-3.16/Modules/FindProtobuf.cmake:499 (message):
+  Protobuf compiler version doesn't match library version 3.6.1
+Call Stack (most recent call first):
+  /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:8 (find_dependency)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Warning at /usr/share/cmake-3.16/Modules/FindProtobuf.cmake:499 (message):
+  Protobuf compiler version doesn't match library version 3.6.1
+Call Stack (most recent call first):
+  /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:8 (find_dependency)
+  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner.cmake:69 (include)
+  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:40 (include)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+  execute_process(/home/jeongil/anaconda3/envs/blickfeld/bin/python3 -m
+  rosidl_adapter --package-name blickfeld_driver --arguments-file
+  /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_adapter__arguments__blickfeld_driver.json
+  --output-dir
+  /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_adapter/blickfeld_driver
+  --output-file
+  /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver/rosidl_adapter/blickfeld_driver.idls)
+  returned error code 1:
+
+  Traceback (most recent call last):
+
+    File "/home/jeongil/anaconda3/envs/blickfeld/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+      "__main__", mod_spec)
+    File "/home/jeongil/anaconda3/envs/blickfeld/lib/python3.7/runpy.py", line 85, in _run_code
+      exec(code, run_globals)
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+      sys.exit(main())
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 55, in main
+      pathlib.Path(relative_path), output_dir)
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 23, in convert_to_idl
+      from rosidl_adapter.srv import convert_srv_to_idl
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 16, in <module>
+      from rosidl_adapter.resource import expand_template
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+      import em
+
+  ModuleNotFoundError: No module named 'em'
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+  CMakeLists.txt:67 (rosidl_generate_interfaces)
+
+

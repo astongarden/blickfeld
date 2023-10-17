@@ -274,10 +274,10 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 PYTHON_EXECUTABLE:FILEPATH=/home/jeongil/anaconda3/envs/blickfeld/bin/python3
 
 //Path to a file.
-PYTHON_INCLUDE_DIR:PATH=/home/jeongil/anaconda3/envs/blickfeld/include/python3.8
+PYTHON_INCLUDE_DIR:PATH=/home/jeongil/anaconda3/envs/blickfeld/include/python3.7m
 
 //Path to a library.
-PYTHON_LIBRARY:FILEPATH=/home/jeongil/anaconda3/envs/blickfeld/lib/libpython3.8.so
+PYTHON_LIBRARY:FILEPATH=/home/jeongil/anaconda3/envs/blickfeld/lib/libpython3.7m.so
 
 //Path to a library.
 PYTHON_LIBRARY_DEBUG:FILEPATH=PYTHON_LIBRARY_DEBUG-NOTFOUND
@@ -391,7 +391,7 @@ blickfeld-scanner_DIR:PATH=/usr/lib/cmake/blickfeld-scanner
 blickfeld_driver_BINARY_DIR:STATIC=/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver
 
 //Value Computed by CMake
-blickfeld_driver_SOURCE_DIR:STATIC=/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver
+blickfeld_driver_SOURCE_DIR:STATIC=/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/foxy/share/builtin_interfaces/cmake
@@ -678,7 +678,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/jeongil/ros_foxy_ws/blickfeld_ws/src/ros2_blickfeld_driver
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -750,11 +750,11 @@ FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcryp
 //Details about finding Protobuf
 FIND_PACKAGE_MESSAGE_DETAILS_Protobuf:INTERNAL=[/usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread][/usr/include][v3.6.1(3.6.1)]
 //Details about finding PythonExtra
-FIND_PACKAGE_MESSAGE_DETAILS_PythonExtra:INTERNAL=[.so][/home/jeongil/anaconda3/envs/blickfeld/include/python3.8][/home/jeongil/anaconda3/envs/blickfeld/lib/libpython3.8.so][.cpython-38-x86_64-linux-gnu][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonExtra:INTERNAL=[.so][/home/jeongil/anaconda3/envs/blickfeld/include/python3.7m][/home/jeongil/anaconda3/envs/blickfeld/lib/libpython3.7m.so][.cpython-37m-x86_64-linux-gnu][v()]
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/home/jeongil/anaconda3/envs/blickfeld/bin/python3][v3.8.10(3.5)]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/home/jeongil/anaconda3/envs/blickfeld/bin/python3][v3.7.10(3.5)]
 //Details about finding PythonLibs
-FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs:INTERNAL=[/home/jeongil/anaconda3/envs/blickfeld/lib/libpython3.8.so][/home/jeongil/anaconda3/envs/blickfeld/include/python3.8][v3.8.10(3.5)]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs:INTERNAL=[/home/jeongil/anaconda3/envs/blickfeld/lib/libpython3.7m.so][/home/jeongil/anaconda3/envs/blickfeld/include/python3.7m][v3.7.10(3.5)]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: OPENSSL_CRYPTO_LIBRARY
@@ -771,14 +771,14 @@ PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 PYTHON_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //The directory for Python library installation. This needs to
 // be in PYTHONPATH when 'setup.py install' is called.
-PYTHON_INSTALL_DIR:INTERNAL=lib/python3.8/site-packages
+PYTHON_INSTALL_DIR:INTERNAL=lib/python3.7/site-packages
 //ADVANCED property for variable: PYTHON_LIBRARY
 PYTHON_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_LIBRARY_DEBUG
 PYTHON_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //The SOABI suffix for Python native extensions. See PEP-3149:
 // https://www.python.org/dev/peps/pep-3149/.
-PYTHON_SOABI:INTERNAL=cpython-38-x86_64-linux-gnu
+PYTHON_SOABI:INTERNAL=cpython-37m-x86_64-linux-gnu
 //ADVANCED property for variable: Protobuf_INCLUDE_DIR
 Protobuf_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Protobuf_LIBRARY_DEBUG
@@ -796,7 +796,7 @@ Protobuf_PROTOC_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Protobuf_PROTOC_LIBRARY_RELEASE
 Protobuf_PROTOC_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //The full suffix for Python native extensions. See PEP-3149: https://www.python.org/dev/peps/pep-3149/.
-PythonExtra_EXTENSION_SUFFIX:INTERNAL=.cpython-38-x86_64-linux-gnu
+PythonExtra_EXTENSION_SUFFIX:INTERNAL=.cpython-37m-x86_64-linux-gnu
 _OPENSSL_CFLAGS:INTERNAL=
 _OPENSSL_CFLAGS_I:INTERNAL=
 _OPENSSL_CFLAGS_OTHER:INTERNAL=
