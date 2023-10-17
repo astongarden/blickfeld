@@ -1,0 +1,250 @@
+[0.182s] Invoking command in '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(blickfeld) /usr/bin/cmake --build /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver -- -j20 -l20
+[0.205s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.211s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.231s] [ 14%] Built target blickfeld_driver_core
+[0.422s] [35m[1mScanning dependencies of target blickfeld_driver__rosidl_generator_c[0m
+[0.430s] [ 18%] [32mBuilding C object CMakeFiles/blickfeld_driver__rosidl_generator_c.dir/rosidl_generator_c/blickfeld_driver/srv/detail/set_scan_pattern__functions.c.o[0m
+[0.430s] [ 18%] [32mBuilding C object CMakeFiles/blickfeld_driver__rosidl_generator_c.dir/rosidl_generator_c/blickfeld_driver/srv/detail/imu_static_transformation__functions.c.o[0m
+[0.432s] [ 18%] Built target blickfeld_driver__cpp
+[0.438s] [ 24%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.438s] [ 24%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.438s] [ 24%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.463s] [ 26%] [32m[1mLinking C shared library libblickfeld_driver__rosidl_generator_c.so[0m
+[0.484s] [ 26%] Built target blickfeld_driver__rosidl_generator_c
+[0.491s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.491s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.621s] [35m[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_cpp[0m
+[0.629s] [ 32%] [32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/blickfeld_driver/srv/set_scan_pattern__type_support.cpp.o[0m
+[0.631s] [ 34%] [32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/blickfeld_driver/srv/imu_static_transformation__type_support.cpp.o[0m
+[0.634s] [35m[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_introspection_cpp[0m
+[0.642s] [ 36%] [32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/blickfeld_driver/srv/detail/imu_static_transformation__type_support.cpp.o[0m
+[0.644s] [ 38%] [32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/blickfeld_driver/srv/detail/set_scan_pattern__type_support.cpp.o[0m
+[0.648s] [35m[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_fastrtps_cpp[0m
+[0.659s] [ 40%] [32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/blickfeld_driver/srv/detail/dds_fastrtps/set_scan_pattern__type_support.cpp.o[0m
+[0.661s] [ 42%] [32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/blickfeld_driver/srv/detail/dds_fastrtps/imu_static_transformation__type_support.cpp.o[0m
+[0.672s] [35m[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_c[0m
+[0.680s] [ 44%] [32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/blickfeld_driver/srv/set_scan_pattern__type_support.cpp.o[0m
+[0.682s] [ 46%] [32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/blickfeld_driver/srv/imu_static_transformation__type_support.cpp.o[0m
+[0.698s] [35m[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_introspection_c[0m
+[0.699s] [ 48%] [32m[1mLinking CXX shared library libblickfeld_driver__rosidl_typesupport_c.so[0m
+[0.708s] [ 50%] [32mBuilding C object CMakeFiles/blickfeld_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/blickfeld_driver/srv/detail/imu_static_transformation__type_support.c.o[0m
+[0.709s] [ 52%] [32mBuilding C object CMakeFiles/blickfeld_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/blickfeld_driver/srv/detail/set_scan_pattern__type_support.c.o[0m
+[0.730s] [ 54%] [32m[1mLinking C shared library libblickfeld_driver__rosidl_typesupport_introspection_c.so[0m
+[0.734s] [ 54%] Built target blickfeld_driver__rosidl_typesupport_c
+[0.749s] [ 54%] Built target blickfeld_driver__rosidl_typesupport_introspection_c
+[0.770s] [ 56%] [32m[1mLinking CXX shared library libblickfeld_driver__rosidl_typesupport_cpp.so[0m
+[0.787s] [ 58%] [32m[1mLinking CXX shared library libblickfeld_driver__rosidl_typesupport_introspection_cpp.so[0m
+[0.794s] [ 58%] Built target blickfeld_driver__rosidl_typesupport_cpp
+[0.822s] [ 58%] Built target blickfeld_driver__rosidl_typesupport_introspection_cpp
+[0.866s] [ 60%] [32m[1mLinking CXX shared library libblickfeld_driver__rosidl_typesupport_fastrtps_cpp.so[0m
+[0.912s] [ 60%] Built target blickfeld_driver__rosidl_typesupport_fastrtps_cpp
+[0.918s] [ 62%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.128s] [35m[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_fastrtps_c[0m
+[1.139s] [ 64%] [32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/blickfeld_driver/srv/detail/imu_static_transformation__type_support_c.cpp.o[0m
+[1.139s] [ 66%] [32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/blickfeld_driver/srv/detail/set_scan_pattern__type_support_c.cpp.o[0m
+[1.309s] [ 68%] [32m[1mLinking CXX shared library libblickfeld_driver__rosidl_typesupport_fastrtps_c.so[0m
+[1.365s] [ 68%] Built target blickfeld_driver__rosidl_typesupport_fastrtps_c
+[1.373s] [35m[1mScanning dependencies of target blickfeld_driver[0m
+[1.386s] [ 68%] Built target blickfeld_driver
+[1.397s] [35m[1mScanning dependencies of target blickfeld_driver__py[0m
+[1.397s] [35m[1mScanning dependencies of target blickfeld_driver_lib[0m
+[1.406s] [ 70%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.446s] [ 72%] [32mBuilding CXX object CMakeFiles/blickfeld_driver_lib.dir/src/blickfeld_driver.cpp.o[0m
+[1.837s] [ 72%] Built target blickfeld_driver__py
+[1.843s] [35m[1mScanning dependencies of target blickfeld_driver__python[0m
+[1.854s] [ 76%] [32mBuilding C object CMakeFiles/blickfeld_driver__python.dir/rosidl_generator_py/blickfeld_driver/srv/_imu_static_transformation_s.c.o[0m
+[1.854s] [ 76%] [32mBuilding C object CMakeFiles/blickfeld_driver__python.dir/rosidl_generator_py/blickfeld_driver/srv/_set_scan_pattern_s.c.o[0m
+[1.905s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/blickfeld_driver/libblickfeld_driver__python.so[0m
+[1.930s] [ 78%] Built target blickfeld_driver__python
+[1.935s] [35m[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_c__pyext[0m
+[1.935s] [35m[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_introspection_c__pyext[0m
+[1.935s] [35m[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.946s] [ 84%] [32mBuilding C object CMakeFiles/blickfeld_driver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/blickfeld_driver/_blickfeld_driver_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.946s] [ 84%] [32mBuilding C object CMakeFiles/blickfeld_driver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/blickfeld_driver/_blickfeld_driver_s.ep.rosidl_typesupport_c.c.o[0m
+[1.946s] [ 84%] [32mBuilding C object CMakeFiles/blickfeld_driver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/blickfeld_driver/_blickfeld_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.994s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[1.994s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[1.998s] [ 90%] [32m[1mLinking CXX shared library rosidl_generator_py/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.015s] [ 90%] Built target blickfeld_driver__rosidl_typesupport_introspection_c__pyext
+[2.015s] [ 90%] Built target blickfeld_driver__rosidl_typesupport_c__pyext
+[2.035s] [ 90%] Built target blickfeld_driver__rosidl_typesupport_fastrtps_c__pyext
+[5.132s] [ 92%] [32m[1mLinking CXX shared library libblickfeld_driver_lib.so[0m
+[5.488s] [ 92%] Built target blickfeld_driver_lib
+[5.494s] [35m[1mScanning dependencies of target blickfeld_driver_component[0m
+[5.494s] [35m[1mScanning dependencies of target blickfeld_driver_node[0m
+[5.542s] [ 96%] [32mBuilding CXX object CMakeFiles/blickfeld_driver_component.dir/src/blickfeld_driver_component.cpp.o[0m
+[5.542s] [ 96%] [32mBuilding CXX object CMakeFiles/blickfeld_driver_node.dir/src/blickfeld_driver_node.cpp.o[0m
+[7.434s] [ 98%] [32m[1mLinking CXX executable blickfeld_driver_node[0m
+[7.521s] [100%] [32m[1mLinking CXX shared library libblickfeld_driver_component.so[0m
+[7.679s] [100%] Built target blickfeld_driver_component
+[7.750s] [100%] Built target blickfeld_driver_node
+[7.757s] Invoked command in '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(blickfeld) /usr/bin/cmake --build /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver -- -j20 -l20
+[7.804s] Invoking command in '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(blickfeld) /usr/bin/cmake --install /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver
+[7.808s] -- Install configuration: ""
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/ament_index/resource_index/rosidl_interfaces/blickfeld_driver
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/set_scan_pattern.h
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__struct.h
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__functions.c
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__functions.h
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__type_support.h
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__functions.h
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__functions.c
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__struct.h
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__type_support.h
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/imu_static_transformation.h
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg/rosidl_generator_c__visibility_control.h
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/library_path.sh
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/library_path.dsv
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_generator_c.so
+[7.809s] -- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_generator_c.so" to ""
+[7.809s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver
+[7.809s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv
+[7.809s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__rosidl_typesupport_fastrtps_c.h
+[7.809s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__rosidl_typesupport_fastrtps_c.h
+[7.810s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg
+[7.810s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.810s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_fastrtps_c.so
+[7.810s] -- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_fastrtps_c.so" to ""
+[7.810s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver
+[7.810s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv
+[7.810s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail
+[7.810s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__rosidl_typesupport_fastrtps_cpp.hpp
+[7.810s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/dds_fastrtps
+[7.810s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__rosidl_typesupport_fastrtps_cpp.hpp
+[7.810s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg
+[7.810s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.810s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_fastrtps_cpp.so
+[7.810s] -- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.810s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver
+[7.810s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv
+[7.810s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail
+[7.810s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__rosidl_typesupport_introspection_c.h
+[7.810s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__type_support.c
+[7.810s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__type_support.c
+[7.810s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__rosidl_typesupport_introspection_c.h
+[7.811s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg
+[7.811s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.811s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_introspection_c.so
+[7.811s] -- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_introspection_c.so" to ""
+[7.811s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_c.so
+[7.811s] -- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_c.so" to ""
+[7.811s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver
+[7.811s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv
+[7.811s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/set_scan_pattern.hpp
+[7.811s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail
+[7.811s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__type_support.hpp
+[7.811s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__traits.hpp
+[7.811s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__builder.hpp
+[7.811s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__traits.hpp
+[7.811s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__struct.hpp
+[7.811s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__builder.hpp
+[7.811s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__type_support.hpp
+[7.811s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__struct.hpp
+[7.811s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/imu_static_transformation.hpp
+[7.811s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg
+[7.811s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.811s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver
+[7.811s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv
+[7.811s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail
+[7.811s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__type_support.cpp
+[7.812s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__type_support.cpp
+[7.812s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__rosidl_typesupport_introspection_cpp.hpp
+[7.812s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__rosidl_typesupport_introspection_cpp.hpp
+[7.812s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_introspection_cpp.so
+[7.812s] -- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_introspection_cpp.so" to ""
+[7.812s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_cpp.so
+[7.812s] -- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_cpp.so" to ""
+[7.812s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/pythonpath.sh
+[7.812s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/pythonpath.dsv
+[7.812s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/__init__.py
+[7.833s] Compiling '/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/__init__.py'...
+[7.835s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/srv
+[7.835s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/srv/_imu_static_transformation_s.c
+[7.835s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/srv/_imu_static_transformation.py
+[7.835s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/srv/_set_scan_pattern_s.c
+[7.835s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/srv/_set_scan_pattern.py
+[7.835s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/srv/__init__.py
+[7.835s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[7.835s] -- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.836s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[7.836s] -- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.836s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[7.836s] -- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.836s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__python.so
+[7.836s] -- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__python.so" to ""
+[7.836s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/srv/ImuStaticTransformation.idl
+[7.836s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/srv/SetScanPattern.idl
+[7.836s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/srv/ImuStaticTransformation.srv
+[7.837s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/srv/ImuStaticTransformation_Request.msg
+[7.837s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/srv/ImuStaticTransformation_Response.msg
+[7.837s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/srv/SetScanPattern.srv
+[7.837s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/srv/SetScanPattern_Request.msg
+[7.837s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/srv/SetScanPattern_Response.msg
+[7.837s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/library_path.sh
+[7.837s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/library_path.dsv
+[7.837s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver_lib.so
+[7.838s] -- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver_lib.so" to ""
+[7.839s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver_component.so
+[7.839s] -- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver_component.so" to ""
+[7.839s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/blickfeld_driver/blickfeld_driver_node
+[7.839s] -- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/blickfeld_driver/blickfeld_driver_node" to ""
+[7.839s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/
+[7.839s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver
+[7.839s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver/blickfeld_driver.h
+[7.839s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver/blickfeld_driver_ros_types.h
+[7.839s] -- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/
+[7.839s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver_core
+[7.839s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver_core/blickfeld_driver_utils.h
+[7.839s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver_core/blickfeld_driver_point_cloud_parser.h
+[7.839s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver_core/blickfeld_driver_imu_parser.h
+[7.839s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver_core/blickfeld_driver_types.h
+[7.839s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver_core/blickfeld_driver_core.h
+[7.839s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/launch
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/launch/live_scanner.launch.xml
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/launch/live_scanner_component.launch.py
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/launch/live_scanner_node.launch.py
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/config
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/config/driver_config.yaml
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/config/blickfeld_scanner.rviz
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/ament_index/resource_index/package_run_dependencies/blickfeld_driver
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/ament_index/resource_index/parent_prefix_path/blickfeld_driver
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/ament_prefix_path.sh
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/ament_prefix_path.dsv
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/path.sh
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/path.dsv
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/local_setup.bash
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/local_setup.sh
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/local_setup.zsh
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/local_setup.dsv
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/package.dsv
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/ament_index/resource_index/packages/blickfeld_driver
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_generator_cExport.cmake
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_generator_cExport-noconfig.cmake
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_typesupport_introspection_cExport.cmake
+[7.840s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_typesupport_cExport.cmake
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_typesupport_cExport-noconfig.cmake
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_generator_cppExport.cmake
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_typesupport_introspection_cppExport.cmake
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_typesupport_cppExport.cmake
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_typesupport_cppExport-noconfig.cmake
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/ament_index/resource_index/rclcpp_components/blickfeld_driver
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/rosidl_cmake-extras.cmake
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/ament_cmake_export_targets-extras.cmake
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driverConfig.cmake
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driverConfig-version.cmake
+[7.841s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/package.xml
+[7.842s] -- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver_core.so
+[7.845s] -- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver_core.so" to ""
+[7.846s] Invoked command in '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(blickfeld) /usr/bin/cmake --install /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver

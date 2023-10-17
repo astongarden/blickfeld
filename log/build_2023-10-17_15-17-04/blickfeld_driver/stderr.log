@@ -1,0 +1,69 @@
+CMake Warning at /usr/share/cmake-3.16/Modules/FindProtobuf.cmake:499 (message):
+  Protobuf compiler version doesn't match library version 3.6.1
+Call Stack (most recent call first):
+  /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:8 (find_dependency)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Warning at /usr/share/cmake-3.16/Modules/FindProtobuf.cmake:499 (message):
+  Protobuf compiler version doesn't match library version 3.6.1
+Call Stack (most recent call first):
+  /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:8 (find_dependency)
+  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner.cmake:69 (include)
+  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:40 (include)
+  CMakeLists.txt:44 (find_package)
+
+
+WARNING: Target "blickfeld_driver_node" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_node" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_component" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_component" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_lib" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_lib" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+CMake Warning at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:235 (add_library):
+  Cannot generate a safe runtime search path for target
+  blickfeld_driver__rosidl_typesupport_fastrtps_c__pyext because files in
+  some directories may conflict with libraries in implicit directories:
+
+    runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/jeongil/anaconda3/envs/blickfeld/lib
+    runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/jeongil/anaconda3/envs/blickfeld/lib
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:67 (rosidl_generate_interfaces)
+
+
+WARNING: Target "blickfeld_driver_core" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_core" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+Traceback (most recent call last):
+  File "/opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+    from rosidl_generator_c import generate_c
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+    from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 24, in <module>
+    from rosidl_parser.parser import parse_idl_file
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 20, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'
+make[2]: *** [CMakeFiles/blickfeld_driver__rosidl_generator_c.dir/build.make:137: rosidl_generator_c/blickfeld_driver/srv/imu_static_transformation.h] 오류 1
+make[1]: *** [CMakeFiles/Makefile2:378: CMakeFiles/blickfeld_driver__rosidl_generator_c.dir/all] 오류 2
+make[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+Traceback (most recent call last):
+  File "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+    from rosidl_generator_cpp import generate_cpp
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+    from rosidl_cmake import generate_files
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 24, in <module>
+    from rosidl_parser.parser import parse_idl_file
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 20, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'
+make[2]: *** [CMakeFiles/blickfeld_driver__cpp.dir/build.make:152: rosidl_generator_cpp/blickfeld_driver/srv/imu_static_transformation.hpp] 오류 1
+make[1]: *** [CMakeFiles/Makefile2:613: CMakeFiles/blickfeld_driver__cpp.dir/all] 오류 2
+make: *** [Makefile:141: all] 오류 2
