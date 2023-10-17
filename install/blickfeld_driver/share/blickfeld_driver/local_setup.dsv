@@ -1,5 +1,0 @@
-source;share/blickfeld_driver/environment/ament_prefix_path.sh
-source;share/blickfeld_driver/environment/library_path.sh
-source;share/blickfeld_driver/environment/library_path.sh
-source;share/blickfeld_driver/environment/path.sh
-source;share/blickfeld_driver/environment/pythonpath.sh

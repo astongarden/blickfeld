@@ -1,3 +1,0 @@
-
-geometry_msgs/TransformStamped imu_transformation
-

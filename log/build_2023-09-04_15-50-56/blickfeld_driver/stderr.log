@@ -1,8 +1,0 @@
-WARNING: Target "blickfeld_driver_node" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
-WARNING: Target "blickfeld_driver_node" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
-WARNING: Target "blickfeld_driver_component" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
-WARNING: Target "blickfeld_driver_component" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
-WARNING: Target "blickfeld_driver_lib" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
-WARNING: Target "blickfeld_driver_lib" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
-WARNING: Target "blickfeld_driver_core" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
-WARNING: Target "blickfeld_driver_core" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.

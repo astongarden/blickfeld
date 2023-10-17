@@ -14,7 +14,7 @@ class PCPub(Node):
         self.pointcloudSub = self.create_subscription(PointCloud2, '/bf_lidar/point_cloud_out', self.get_point_cloud, 10)
 
         self.pointcloudPub = self.create_publisher(PointCloud2, 'point_cloud_topic', 10)
-        self.pointcloudTimer = self.create_timer(0.5, self.publish_point_cloud)
+        self.pointcloudTimer = self.create_timer(0.05, self.publish_point_cloud)
 
         # self.pointcloud = None
         self.pointDOWN = None
