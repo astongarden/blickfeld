@@ -1,0 +1,42 @@
+[0.478s] Invoking command in '/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_pointcloud': PYTHONPATH=/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/prefix_override:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/blickfeld_pointcloud build --build-base /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build install --record /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/install.log --install-scripts $base/lib/blickfeld_pointcloud --single-version-externally-managed
+[0.575s] running egg_info
+[0.575s] creating ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info
+[0.575s] writing ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/PKG-INFO
+[0.575s] writing dependency_links to ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/dependency_links.txt
+[0.575s] writing entry points to ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/entry_points.txt
+[0.575s] writing requirements to ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/requires.txt
+[0.575s] writing top-level names to ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/top_level.txt
+[0.576s] writing manifest file '../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/SOURCES.txt'
+[0.592s] reading manifest file '../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/SOURCES.txt'
+[0.593s] writing manifest file '../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/SOURCES.txt'
+[0.593s] running build
+[0.593s] running build_py
+[0.593s] creating /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build
+[0.593s] creating /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib
+[0.593s] creating /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud
+[0.593s] copying blickfeld_pointcloud/pointclustering.py -> /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud
+[0.593s] copying blickfeld_pointcloud/pointnumpy.py -> /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud
+[0.593s] copying blickfeld_pointcloud/pointdownsampling.py -> /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud
+[0.593s] copying blickfeld_pointcloud/__init__.py -> /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud
+[0.593s] running install
+[0.594s] running install_lib
+[0.594s] creating /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud
+[0.594s] copying /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud/pointclustering.py -> /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud
+[0.594s] copying /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud/pointnumpy.py -> /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud
+[0.594s] copying /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud/pointdownsampling.py -> /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud
+[0.594s] copying /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud/__init__.py -> /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud
+[0.594s] byte-compiling /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud/pointclustering.py to pointclustering.cpython-38.pyc
+[0.595s] byte-compiling /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud/pointnumpy.py to pointnumpy.cpython-38.pyc
+[0.596s] byte-compiling /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud/pointdownsampling.py to pointdownsampling.cpython-38.pyc
+[0.596s] byte-compiling /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud/__init__.py to __init__.cpython-38.pyc
+[0.596s] running install_data
+[0.596s] creating /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/share/ament_index
+[0.596s] creating /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/share/ament_index/resource_index
+[0.596s] creating /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/share/ament_index/resource_index/packages
+[0.596s] copying resource/blickfeld_pointcloud -> /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/share/ament_index/resource_index/packages
+[0.596s] copying package.xml -> /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/share/blickfeld_pointcloud
+[0.596s] running install_egg_info
+[0.597s] Copying ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info to /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud-0.0.0-py3.8.egg-info
+[0.597s] running install_scripts
+[0.607s] writing list of installed files to '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/install.log'
+[0.617s] Invoked command in '/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_pointcloud' returned '0': PYTHONPATH=/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/prefix_override:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/blickfeld_pointcloud build --build-base /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build install --record /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/install.log --install-scripts $base/lib/blickfeld_pointcloud --single-version-externally-managed

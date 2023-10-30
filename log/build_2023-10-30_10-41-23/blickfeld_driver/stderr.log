@@ -1,0 +1,26 @@
+CMake Warning at /usr/share/cmake-3.16/Modules/FindProtobuf.cmake:499 (message):
+  Protobuf compiler version doesn't match library version 3.6.1
+Call Stack (most recent call first):
+  /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:8 (find_dependency)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Warning at /usr/share/cmake-3.16/Modules/FindProtobuf.cmake:499 (message):
+  Protobuf compiler version doesn't match library version 3.6.1
+Call Stack (most recent call first):
+  /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:8 (find_dependency)
+  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner.cmake:69 (include)
+  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:40 (include)
+  CMakeLists.txt:44 (find_package)
+
+
+WARNING: Target "blickfeld_driver_node" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_node" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_component" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_component" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_lib" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_lib" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_core" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "blickfeld_driver_core" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.

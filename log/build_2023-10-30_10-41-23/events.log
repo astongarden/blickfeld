@@ -1,0 +1,548 @@
+[0.000000] (-) TimerEvent: {}
+[0.000393] (blickfeld_driver) JobQueued: {'identifier': 'blickfeld_driver', 'dependencies': OrderedDict()}
+[0.000418] (blickfeld_pointcloud) JobQueued: {'identifier': 'blickfeld_pointcloud', 'dependencies': OrderedDict()}
+[0.000429] (blickfeld_driver) JobStarted: {'identifier': 'blickfeld_driver'}
+[0.081558] (blickfeld_pointcloud) JobStarted: {'identifier': 'blickfeld_pointcloud'}
+[0.100268] (-) TimerEvent: {}
+[0.182884] (blickfeld_driver) JobProgress: {'identifier': 'blickfeld_driver', 'progress': 'cmake'}
+[0.183274] (blickfeld_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_driver', '-DCMAKE_INSTALL_PREFIX=/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver'], 'cwd': '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'jeongil'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1732'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/lib64:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_pointcloud/lib:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_driver/lib:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_msgs/lib:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_laserscan/lib:/home/jeongil/ros_foxy_ws/velodyne_ws/install/cloud_msgs/lib:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/lib'), ('HOME', '/home/jeongil'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jeongil'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1536'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jeongil/ros_foxy_ws/velodyne_ws/install:/home/jeongil/ros_foxy_ws/blickfeld_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jeongil'), ('JOURNAL_STREAM', '8:53654'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jeongil'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/jeongil/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin'), ('SESSION_MANAGER', 'local/jeongil-System-Product-Name:@/tmp/.ICE-unix/1768,unix/jeongil-System-Product-Name:/tmp/.ICE-unix/1768'), ('INVOCATION_ID', '1ff3851a037c44a48ae7acefe3a060f8'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/09d94451_a29f_4db0_b11a_69896f27325d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2604'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_pointcloud:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_driver:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_msgs:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_laserscan:/home/jeongil/ros_foxy_ws/velodyne_ws/install/lego_loam_sr:/home/jeongil/ros_foxy_ws/velodyne_ws/install/cloud_msgs:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/jeongil/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jeongil/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_msgs/lib/python3.8/site-packages:/home/jeongil/ros_foxy_ws/velodyne_ws/install/cloud_msgs/lib/python3.8/site-packages:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.7/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_pointcloud:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_driver:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_msgs:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_laserscan:/home/jeongil/ros_foxy_ws/velodyne_ws/install/lego_loam_sr:/home/jeongil/ros_foxy_ws/velodyne_ws/install/cloud_msgs:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud:/opt/ros/foxy')]), 'shell': False}
+[0.200471] (-) TimerEvent: {}
+[0.214446] (blickfeld_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.243719] (blickfeld_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.246433] (blickfeld_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.283691] (blickfeld_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.284223] (blickfeld_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300711] (-) TimerEvent: {}
+[0.321908] (blickfeld_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.327577] (blickfeld_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.327867] (blickfeld_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.328967] (blickfeld_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.370852] (blickfeld_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.371148] (blickfeld_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400815] (-) TimerEvent: {}
+[0.413089] (blickfeld_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.419416] (blickfeld_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.419798] (blickfeld_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.421096] (blickfeld_driver) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.434975] (blickfeld_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.435071] (blickfeld_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.500929] (-) TimerEvent: {}
+[0.529935] (blickfeld_driver) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.534131] (blickfeld_driver) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.558021] (blickfeld_pointcloud) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/blickfeld_pointcloud', 'build', '--build-base', '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build', 'install', '--record', '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/install.log', '--install-scripts', '$base/lib/blickfeld_pointcloud', '--single-version-externally-managed'], 'cwd': '/home/jeongil/ros_foxy_ws/blickfeld_ws/src/blickfeld_pointcloud', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en_US:en', 'USER': 'jeongil', 'LC_TIME': 'ko_KR.UTF-8', 'SSH_AGENT_PID': '1732', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda/lib64:/lib64:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_pointcloud/lib:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_driver/lib:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_msgs/lib:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_laserscan/lib:/home/jeongil/ros_foxy_ws/velodyne_ws/install/cloud_msgs/lib:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/lib', 'HOME': '/home/jeongil', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/jeongil', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1536', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jeongil/ros_foxy_ws/velodyne_ws/install:/home/jeongil/ros_foxy_ws/blickfeld_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jeongil', 'JOURNAL_STREAM': '8:53654', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jeongil', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda/bin:/home/jeongil/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin', 'SESSION_MANAGER': 'local/jeongil-System-Product-Name:@/tmp/.ICE-unix/1768,unix/jeongil-System-Product-Name:/tmp/.ICE-unix/1768', 'INVOCATION_ID': '1ff3851a037c44a48ae7acefe3a060f8', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/09d94451_a29f_4db0_b11a_69896f27325d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.2604', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_pointcloud:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_driver:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_msgs:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_laserscan:/home/jeongil/ros_foxy_ws/velodyne_ws/install/lego_loam_sr:/home/jeongil/ros_foxy_ws/velodyne_ws/install/cloud_msgs:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver:/opt/ros/foxy', 'CONDA_PYTHON_EXE': '/home/jeongil/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/jeongil/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/prefix_override:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_msgs/lib/python3.8/site-packages:/home/jeongil/ros_foxy_ws/velodyne_ws/install/cloud_msgs/lib/python3.8/site-packages:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.7/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_pointcloud:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_driver:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_msgs:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_laserscan:/home/jeongil/ros_foxy_ws/velodyne_ws/install/lego_loam_sr:/home/jeongil/ros_foxy_ws/velodyne_ws/install/cloud_msgs:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver'}, 'shell': False}
+[0.559864] (blickfeld_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.563522] (blickfeld_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.601016] (-) TimerEvent: {}
+[0.602847] (blickfeld_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.618730] (blickfeld_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.656393] (blickfeld_pointcloud) StdoutLine: {'line': b'running egg_info\n'}
+[0.656627] (blickfeld_pointcloud) StdoutLine: {'line': b'creating ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info\n'}
+[0.656698] (blickfeld_pointcloud) StdoutLine: {'line': b'writing ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/PKG-INFO\n'}
+[0.656870] (blickfeld_pointcloud) StdoutLine: {'line': b'writing dependency_links to ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/dependency_links.txt\n'}
+[0.656902] (blickfeld_pointcloud) StdoutLine: {'line': b'writing entry points to ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/entry_points.txt\n'}
+[0.656969] (blickfeld_pointcloud) StdoutLine: {'line': b'writing requirements to ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/requires.txt\n'}
+[0.656998] (blickfeld_pointcloud) StdoutLine: {'line': b'writing top-level names to ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/top_level.txt\n'}
+[0.657523] (blickfeld_pointcloud) StdoutLine: {'line': b"writing manifest file '../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/SOURCES.txt'\n"}
+[0.661439] (blickfeld_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.674044] (blickfeld_pointcloud) StdoutLine: {'line': b"reading manifest file '../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/SOURCES.txt'\n"}
+[0.674442] (blickfeld_pointcloud) StdoutLine: {'line': b"writing manifest file '../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info/SOURCES.txt'\n"}
+[0.674472] (blickfeld_pointcloud) StdoutLine: {'line': b'running build\n'}
+[0.674514] (blickfeld_pointcloud) StdoutLine: {'line': b'running build_py\n'}
+[0.674566] (blickfeld_pointcloud) StdoutLine: {'line': b'creating /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build\n'}
+[0.674594] (blickfeld_pointcloud) StdoutLine: {'line': b'creating /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib\n'}
+[0.674620] (blickfeld_pointcloud) StdoutLine: {'line': b'creating /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud\n'}
+[0.674661] (blickfeld_pointcloud) StdoutLine: {'line': b'copying blickfeld_pointcloud/pointclustering.py -> /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud\n'}
+[0.674691] (blickfeld_pointcloud) StdoutLine: {'line': b'copying blickfeld_pointcloud/pointnumpy.py -> /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud\n'}
+[0.674731] (blickfeld_pointcloud) StdoutLine: {'line': b'copying blickfeld_pointcloud/pointdownsampling.py -> /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud\n'}
+[0.674757] (blickfeld_pointcloud) StdoutLine: {'line': b'copying blickfeld_pointcloud/__init__.py -> /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud\n'}
+[0.674794] (blickfeld_pointcloud) StdoutLine: {'line': b'running install\n'}
+[0.675191] (blickfeld_pointcloud) StdoutLine: {'line': b'running install_lib\n'}
+[0.675616] (blickfeld_pointcloud) StdoutLine: {'line': b'creating /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud\n'}
+[0.675644] (blickfeld_pointcloud) StdoutLine: {'line': b'copying /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud/pointclustering.py -> /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud\n'}
+[0.675688] (blickfeld_pointcloud) StdoutLine: {'line': b'copying /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud/pointnumpy.py -> /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud\n'}
+[0.675728] (blickfeld_pointcloud) StdoutLine: {'line': b'copying /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud/pointdownsampling.py -> /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud\n'}
+[0.675767] (blickfeld_pointcloud) StdoutLine: {'line': b'copying /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/build/lib/blickfeld_pointcloud/__init__.py -> /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud\n'}
+[0.675964] (blickfeld_pointcloud) StdoutLine: {'line': b'byte-compiling /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud/pointclustering.py to pointclustering.cpython-38.pyc\n'}
+[0.676855] (blickfeld_pointcloud) StdoutLine: {'line': b'byte-compiling /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud/pointnumpy.py to pointnumpy.cpython-38.pyc\n'}
+[0.677157] (blickfeld_pointcloud) StdoutLine: {'line': b'byte-compiling /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud/pointdownsampling.py to pointdownsampling.cpython-38.pyc\n'}
+[0.677483] (blickfeld_pointcloud) StdoutLine: {'line': b'byte-compiling /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud/__init__.py to __init__.cpython-38.pyc\n'}
+[0.677538] (blickfeld_pointcloud) StdoutLine: {'line': b'running install_data\n'}
+[0.677741] (blickfeld_pointcloud) StdoutLine: {'line': b'creating /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/share/ament_index\n'}
+[0.677786] (blickfeld_pointcloud) StdoutLine: {'line': b'creating /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/share/ament_index/resource_index\n'}
+[0.677815] (blickfeld_pointcloud) StdoutLine: {'line': b'creating /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/share/ament_index/resource_index/packages\n'}
+[0.677853] (blickfeld_pointcloud) StdoutLine: {'line': b'copying resource/blickfeld_pointcloud -> /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/share/ament_index/resource_index/packages\n'}
+[0.677892] (blickfeld_pointcloud) StdoutLine: {'line': b'copying package.xml -> /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/share/blickfeld_pointcloud\n'}
+[0.677917] (blickfeld_pointcloud) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.678626] (blickfeld_pointcloud) StdoutLine: {'line': b'Copying ../../build/blickfeld_pointcloud/blickfeld_pointcloud.egg-info to /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages/blickfeld_pointcloud-0.0.0-py3.8.egg-info\n'}
+[0.678915] (blickfeld_pointcloud) StdoutLine: {'line': b'running install_scripts\n'}
+[0.688048] (blickfeld_pointcloud) StdoutLine: {'line': b"writing list of installed files to '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_pointcloud/install.log'\n"}
+[0.693156] (blickfeld_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.694113] (blickfeld_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.694627] (blickfeld_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.698196] (blickfeld_pointcloud) CommandEnded: {'returncode': 0}
+[0.701113] (-) TimerEvent: {}
+[0.732678] (blickfeld_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.732811] (blickfeld_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.751886] (blickfeld_pointcloud) JobEnded: {'identifier': 'blickfeld_pointcloud', 'rc': 0}
+[0.775970] (blickfeld_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.776150] (blickfeld_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.801206] (-) TimerEvent: {}
+[0.816906] (blickfeld_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.817072] (blickfeld_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.883984] (blickfeld_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.885219] (blickfeld_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.901264] (-) TimerEvent: {}
+[0.972419] (blickfeld_driver) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[1.001340] (-) TimerEvent: {}
+[1.005678] (blickfeld_driver) StdoutLine: {'line': b'-- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)\n'}
+[1.025166] (blickfeld_driver) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.044287] (blickfeld_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.085661] (blickfeld_driver) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[1.091134] (blickfeld_driver) StdoutLine: {'line': b'-- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)\n'}
+[1.101394] (-) TimerEvent: {}
+[1.102748] (blickfeld_driver) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[1.118399] (blickfeld_driver) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.124845] (blickfeld_driver) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[1.201497] (-) TimerEvent: {}
+[1.280146] (blickfeld_driver) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[1.284621] (blickfeld_driver) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[1.286193] (blickfeld_driver) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[1.301606] (-) TimerEvent: {}
+[1.310767] (blickfeld_driver) StderrLine: {'line': b'CMake Warning at /usr/share/cmake-3.16/Modules/FindProtobuf.cmake:499 (message):\n'}
+[1.310854] (blickfeld_driver) StderrLine: {'line': b"  Protobuf compiler version doesn't match library version 3.6.1\n"}
+[1.310887] (blickfeld_driver) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.310913] (blickfeld_driver) StderrLine: {'line': b'  /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)\n'}
+[1.310938] (blickfeld_driver) StderrLine: {'line': b'  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:8 (find_dependency)\n'}
+[1.310963] (blickfeld_driver) StderrLine: {'line': b'  CMakeLists.txt:44 (find_package)\n'}
+[1.310988] (blickfeld_driver) StderrLine: {'line': b'\n'}
+[1.311014] (blickfeld_driver) StderrLine: {'line': b'\n'}
+[1.311501] (blickfeld_driver) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3.6.1") \n'}
+[1.316673] (blickfeld_driver) StderrLine: {'line': b'CMake Warning at /usr/share/cmake-3.16/Modules/FindProtobuf.cmake:499 (message):\n'}
+[1.316747] (blickfeld_driver) StderrLine: {'line': b"  Protobuf compiler version doesn't match library version 3.6.1\n"}
+[1.316779] (blickfeld_driver) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.316811] (blickfeld_driver) StderrLine: {'line': b'  /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)\n'}
+[1.316836] (blickfeld_driver) StderrLine: {'line': b'  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:8 (find_dependency)\n'}
+[1.316859] (blickfeld_driver) StderrLine: {'line': b'  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner.cmake:69 (include)\n'}
+[1.316884] (blickfeld_driver) StderrLine: {'line': b'  /usr/lib/cmake/blickfeld-scanner/blickfeld-scanner-config.cmake:40 (include)\n'}
+[1.316907] (blickfeld_driver) StderrLine: {'line': b'  CMakeLists.txt:44 (find_package)\n'}
+[1.316931] (blickfeld_driver) StderrLine: {'line': b'\n'}
+[1.316954] (blickfeld_driver) StderrLine: {'line': b'\n'}
+[1.329858] (blickfeld_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.401760] (-) TimerEvent: {}
+[1.502006] (-) TimerEvent: {}
+[1.554618] (blickfeld_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.602124] (-) TimerEvent: {}
+[1.607814] (blickfeld_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.622535] (blickfeld_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.623354] (blickfeld_driver) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.647669] (blickfeld_driver) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.647928] (blickfeld_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.648017] (blickfeld_driver) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.648084] (blickfeld_driver) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.663778] (blickfeld_driver) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.702197] (-) TimerEvent: {}
+[1.728642] (blickfeld_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.737405] (blickfeld_driver) StderrLine: {'line': b'WARNING: Target "blickfeld_driver_node" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.\n'}
+[1.737515] (blickfeld_driver) StderrLine: {'line': b'WARNING: Target "blickfeld_driver_node" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.\n'}
+[1.746973] (blickfeld_driver) StderrLine: {'line': b'WARNING: Target "blickfeld_driver_component" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.\n'}
+[1.747045] (blickfeld_driver) StderrLine: {'line': b'WARNING: Target "blickfeld_driver_component" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.\n'}
+[1.761442] (blickfeld_driver) StderrLine: {'line': b'WARNING: Target "blickfeld_driver_lib" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.\n'}
+[1.761534] (blickfeld_driver) StderrLine: {'line': b'WARNING: Target "blickfeld_driver_lib" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.\n'}
+[1.786762] (blickfeld_driver) StderrLine: {'line': b'WARNING: Target "blickfeld_driver_core" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.\n'}
+[1.786863] (blickfeld_driver) StderrLine: {'line': b'WARNING: Target "blickfeld_driver_core" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.\n'}
+[1.790236] (blickfeld_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[1.792025] (blickfeld_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver\n'}
+[1.798241] (blickfeld_driver) CommandEnded: {'returncode': 0}
+[1.800118] (blickfeld_driver) JobProgress: {'identifier': 'blickfeld_driver', 'progress': 'build'}
+[1.800580] (blickfeld_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver', '--', '-j20', '-l20'], 'cwd': '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'jeongil'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1732'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/lib64:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_pointcloud/lib:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_driver/lib:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_msgs/lib:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_laserscan/lib:/home/jeongil/ros_foxy_ws/velodyne_ws/install/cloud_msgs/lib:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/lib'), ('HOME', '/home/jeongil'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jeongil'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1536'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jeongil/ros_foxy_ws/velodyne_ws/install:/home/jeongil/ros_foxy_ws/blickfeld_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jeongil'), ('JOURNAL_STREAM', '8:53654'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jeongil'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/jeongil/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin'), ('SESSION_MANAGER', 'local/jeongil-System-Product-Name:@/tmp/.ICE-unix/1768,unix/jeongil-System-Product-Name:/tmp/.ICE-unix/1768'), ('INVOCATION_ID', '1ff3851a037c44a48ae7acefe3a060f8'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/09d94451_a29f_4db0_b11a_69896f27325d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2604'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_pointcloud:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_driver:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_msgs:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_laserscan:/home/jeongil/ros_foxy_ws/velodyne_ws/install/lego_loam_sr:/home/jeongil/ros_foxy_ws/velodyne_ws/install/cloud_msgs:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/jeongil/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jeongil/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_msgs/lib/python3.8/site-packages:/home/jeongil/ros_foxy_ws/velodyne_ws/install/cloud_msgs/lib/python3.8/site-packages:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.7/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_pointcloud:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_driver:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_msgs:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_laserscan:/home/jeongil/ros_foxy_ws/velodyne_ws/install/lego_loam_sr:/home/jeongil/ros_foxy_ws/velodyne_ws/install/cloud_msgs:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud:/opt/ros/foxy')]), 'shell': False}
+[1.802263] (-) TimerEvent: {}
+[1.822940] (blickfeld_driver) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.823163] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver__cpp\x1b[0m\n'}
+[1.823276] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver_core\x1b[0m\n'}
+[1.828798] (blickfeld_driver) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.880564] (blickfeld_driver) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object modules/ros_blickfeld_driver_core/CMakeFiles/blickfeld_driver_core.dir/src/blickfeld_driver_core.cpp.o\x1b[0m\n'}
+[1.880757] (blickfeld_driver) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object modules/ros_blickfeld_driver_core/CMakeFiles/blickfeld_driver_core.dir/src/blickfeld_driver_imu_parser.cpp.o\x1b[0m\n'}
+[1.880839] (blickfeld_driver) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object modules/ros_blickfeld_driver_core/CMakeFiles/blickfeld_driver_core.dir/src/blickfeld_driver_point_cloud_parser.cpp.o\x1b[0m\n'}
+[1.881023] (blickfeld_driver) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object modules/ros_blickfeld_driver_core/CMakeFiles/blickfeld_driver_core.dir/src/blickfeld_driver_utils.cpp.o\x1b[0m\n'}
+[1.902363] (-) TimerEvent: {}
+[2.002632] (-) TimerEvent: {}
+[2.021327] (blickfeld_driver) StdoutLine: {'line': b'[ 12%] Built target blickfeld_driver__cpp\n'}
+[2.021904] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver__rosidl_generator_c\x1b[0m\n'}
+[2.027850] (blickfeld_driver) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.027998] (blickfeld_driver) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.029377] (blickfeld_driver) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.030071] (blickfeld_driver) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/blickfeld_driver__rosidl_generator_c.dir/rosidl_generator_c/blickfeld_driver/srv/detail/set_scan_pattern__functions.c.o\x1b[0m\n'}
+[2.032437] (blickfeld_driver) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/blickfeld_driver__rosidl_generator_c.dir/rosidl_generator_c/blickfeld_driver/srv/detail/imu_static_transformation__functions.c.o\x1b[0m\n'}
+[2.077412] (blickfeld_driver) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libblickfeld_driver__rosidl_generator_c.so\x1b[0m\n'}
+[2.099685] (blickfeld_driver) StdoutLine: {'line': b'[ 24%] Built target blickfeld_driver__rosidl_generator_c\n'}
+[2.102713] (-) TimerEvent: {}
+[2.106070] (blickfeld_driver) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.109110] (blickfeld_driver) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.187263] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.195240] (blickfeld_driver) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/blickfeld_driver/srv/set_scan_pattern__type_support.cpp.o\x1b[0m\n'}
+[2.195396] (blickfeld_driver) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/blickfeld_driver/srv/imu_static_transformation__type_support.cpp.o\x1b[0m\n'}
+[2.201404] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.202784] (-) TimerEvent: {}
+[2.211322] (blickfeld_driver) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/blickfeld_driver/srv/detail/imu_static_transformation__type_support.cpp.o\x1b[0m\n'}
+[2.213866] (blickfeld_driver) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/blickfeld_driver/srv/detail/set_scan_pattern__type_support.cpp.o\x1b[0m\n'}
+[2.214596] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.232640] (blickfeld_driver) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/blickfeld_driver/srv/detail/dds_fastrtps/imu_static_transformation__type_support.cpp.o\x1b[0m\n'}
+[2.233019] (blickfeld_driver) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/blickfeld_driver/srv/detail/dds_fastrtps/set_scan_pattern__type_support.cpp.o\x1b[0m\n'}
+[2.289347] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.302599] (blickfeld_driver) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/blickfeld_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/blickfeld_driver/srv/detail/set_scan_pattern__type_support.c.o\x1b[0m\n'}
+[2.302765] (blickfeld_driver) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/blickfeld_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/blickfeld_driver/srv/detail/imu_static_transformation__type_support.c.o\x1b[0m\n'}
+[2.302851] (-) TimerEvent: {}
+[2.333958] (blickfeld_driver) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking C shared library libblickfeld_driver__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.334934] (blickfeld_driver) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libblickfeld_driver__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.353158] (blickfeld_driver) StdoutLine: {'line': b'[ 48%] Built target blickfeld_driver__rosidl_typesupport_introspection_c\n'}
+[2.358678] (blickfeld_driver) StdoutLine: {'line': b'[ 48%] Built target blickfeld_driver__rosidl_typesupport_cpp\n'}
+[2.388513] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_c\x1b[0m\n'}
+[2.396484] (blickfeld_driver) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/blickfeld_driver/srv/imu_static_transformation__type_support.cpp.o\x1b[0m\n'}
+[2.396648] (blickfeld_driver) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/blickfeld_driver/srv/set_scan_pattern__type_support.cpp.o\x1b[0m\n'}
+[2.402957] (-) TimerEvent: {}
+[2.414980] (blickfeld_driver) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libblickfeld_driver__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.438836] (blickfeld_driver) StdoutLine: {'line': b'[ 54%] Built target blickfeld_driver__rosidl_typesupport_c\n'}
+[2.463880] (blickfeld_driver) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libblickfeld_driver__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.496972] (blickfeld_driver) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libblickfeld_driver__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.499211] (blickfeld_driver) StdoutLine: {'line': b'[ 58%] Built target blickfeld_driver__rosidl_typesupport_introspection_cpp\n'}
+[2.503033] (-) TimerEvent: {}
+[2.543914] (blickfeld_driver) StdoutLine: {'line': b'[ 58%] Built target blickfeld_driver__rosidl_typesupport_fastrtps_cpp\n'}
+[2.550182] (blickfeld_driver) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.603164] (-) TimerEvent: {}
+[2.703416] (-) TimerEvent: {}
+[2.725197] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.737266] (blickfeld_driver) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/blickfeld_driver/srv/detail/imu_static_transformation__type_support_c.cpp.o\x1b[0m\n'}
+[2.737424] (blickfeld_driver) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/blickfeld_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/blickfeld_driver/srv/detail/set_scan_pattern__type_support_c.cpp.o\x1b[0m\n'}
+[2.803519] (-) TimerEvent: {}
+[2.903771] (-) TimerEvent: {}
+[2.913363] (blickfeld_driver) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libblickfeld_driver__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.961973] (blickfeld_driver) StdoutLine: {'line': b'[ 66%] Built target blickfeld_driver__rosidl_typesupport_fastrtps_c\n'}
+[2.967985] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver\x1b[0m\n'}
+[2.974322] (blickfeld_driver) StdoutLine: {'line': b'[ 66%] Built target blickfeld_driver\n'}
+[2.980400] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver__py\x1b[0m\n'}
+[2.987093] (blickfeld_driver) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.003868] (-) TimerEvent: {}
+[3.104209] (-) TimerEvent: {}
+[3.204486] (-) TimerEvent: {}
+[3.304761] (-) TimerEvent: {}
+[3.405028] (-) TimerEvent: {}
+[3.405498] (blickfeld_driver) StdoutLine: {'line': b'[ 68%] Built target blickfeld_driver__py\n'}
+[3.411513] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver__python\x1b[0m\n'}
+[3.432039] (blickfeld_driver) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/blickfeld_driver__python.dir/rosidl_generator_py/blickfeld_driver/srv/_set_scan_pattern_s.c.o\x1b[0m\n'}
+[3.432247] (blickfeld_driver) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/blickfeld_driver__python.dir/rosidl_generator_py/blickfeld_driver/srv/_imu_static_transformation_s.c.o\x1b[0m\n'}
+[3.484523] (blickfeld_driver) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/blickfeld_driver/libblickfeld_driver__python.so\x1b[0m\n'}
+[3.505128] (-) TimerEvent: {}
+[3.509327] (blickfeld_driver) StdoutLine: {'line': b'[ 74%] Built target blickfeld_driver__python\n'}
+[3.515521] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.515617] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.515686] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.525912] (blickfeld_driver) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/blickfeld_driver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/blickfeld_driver/_blickfeld_driver_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.528281] (blickfeld_driver) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/blickfeld_driver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/blickfeld_driver/_blickfeld_driver_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.528462] (blickfeld_driver) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/blickfeld_driver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/blickfeld_driver/_blickfeld_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.574804] (blickfeld_driver) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.575918] (blickfeld_driver) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.576043] (blickfeld_driver) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.596529] (blickfeld_driver) StdoutLine: {'line': b'[ 86%] Built target blickfeld_driver__rosidl_typesupport_introspection_c__pyext\n'}
+[3.596728] (blickfeld_driver) StdoutLine: {'line': b'[ 86%] Built target blickfeld_driver__rosidl_typesupport_c__pyext\n'}
+[3.605225] (-) TimerEvent: {}
+[3.614118] (blickfeld_driver) StdoutLine: {'line': b'[ 86%] Built target blickfeld_driver__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.705326] (-) TimerEvent: {}
+[3.805622] (-) TimerEvent: {}
+[3.905923] (-) TimerEvent: {}
+[4.006227] (-) TimerEvent: {}
+[4.106480] (-) TimerEvent: {}
+[4.206746] (-) TimerEvent: {}
+[4.307013] (-) TimerEvent: {}
+[4.407282] (-) TimerEvent: {}
+[4.507545] (-) TimerEvent: {}
+[4.607804] (-) TimerEvent: {}
+[4.708080] (-) TimerEvent: {}
+[4.808347] (-) TimerEvent: {}
+[4.908604] (-) TimerEvent: {}
+[5.008860] (-) TimerEvent: {}
+[5.109124] (-) TimerEvent: {}
+[5.209440] (-) TimerEvent: {}
+[5.309695] (-) TimerEvent: {}
+[5.409955] (-) TimerEvent: {}
+[5.510254] (-) TimerEvent: {}
+[5.610541] (-) TimerEvent: {}
+[5.710829] (-) TimerEvent: {}
+[5.811121] (-) TimerEvent: {}
+[5.911422] (-) TimerEvent: {}
+[6.011745] (-) TimerEvent: {}
+[6.112014] (-) TimerEvent: {}
+[6.212278] (-) TimerEvent: {}
+[6.312602] (-) TimerEvent: {}
+[6.412849] (-) TimerEvent: {}
+[6.513132] (-) TimerEvent: {}
+[6.613411] (-) TimerEvent: {}
+[6.713764] (-) TimerEvent: {}
+[6.813978] (-) TimerEvent: {}
+[6.914177] (-) TimerEvent: {}
+[7.014382] (-) TimerEvent: {}
+[7.114590] (-) TimerEvent: {}
+[7.214799] (-) TimerEvent: {}
+[7.315005] (-) TimerEvent: {}
+[7.415205] (-) TimerEvent: {}
+[7.515415] (-) TimerEvent: {}
+[7.615626] (-) TimerEvent: {}
+[7.715829] (-) TimerEvent: {}
+[7.816029] (-) TimerEvent: {}
+[7.916242] (-) TimerEvent: {}
+[7.986495] (blickfeld_driver) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared library libblickfeld_driver_core.so\x1b[0m\n'}
+[8.016330] (-) TimerEvent: {}
+[8.116549] (-) TimerEvent: {}
+[8.216764] (-) TimerEvent: {}
+[8.258851] (blickfeld_driver) StdoutLine: {'line': b'[ 88%] Built target blickfeld_driver_core\n'}
+[8.264364] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver_lib\x1b[0m\n'}
+[8.308953] (blickfeld_driver) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/blickfeld_driver_lib.dir/src/blickfeld_driver.cpp.o\x1b[0m\n'}
+[8.316884] (-) TimerEvent: {}
+[8.417172] (-) TimerEvent: {}
+[8.517464] (-) TimerEvent: {}
+[8.617789] (-) TimerEvent: {}
+[8.718100] (-) TimerEvent: {}
+[8.818417] (-) TimerEvent: {}
+[8.918739] (-) TimerEvent: {}
+[9.019028] (-) TimerEvent: {}
+[9.119295] (-) TimerEvent: {}
+[9.219555] (-) TimerEvent: {}
+[9.319868] (-) TimerEvent: {}
+[9.420091] (-) TimerEvent: {}
+[9.520306] (-) TimerEvent: {}
+[9.620520] (-) TimerEvent: {}
+[9.720798] (-) TimerEvent: {}
+[9.821087] (-) TimerEvent: {}
+[9.921344] (-) TimerEvent: {}
+[10.021601] (-) TimerEvent: {}
+[10.121856] (-) TimerEvent: {}
+[10.222072] (-) TimerEvent: {}
+[10.322280] (-) TimerEvent: {}
+[10.422487] (-) TimerEvent: {}
+[10.522745] (-) TimerEvent: {}
+[10.622997] (-) TimerEvent: {}
+[10.723210] (-) TimerEvent: {}
+[10.823417] (-) TimerEvent: {}
+[10.923619] (-) TimerEvent: {}
+[11.023819] (-) TimerEvent: {}
+[11.124021] (-) TimerEvent: {}
+[11.224218] (-) TimerEvent: {}
+[11.324422] (-) TimerEvent: {}
+[11.424632] (-) TimerEvent: {}
+[11.524878] (-) TimerEvent: {}
+[11.625080] (-) TimerEvent: {}
+[11.725283] (-) TimerEvent: {}
+[11.825488] (-) TimerEvent: {}
+[11.925691] (-) TimerEvent: {}
+[11.984151] (blickfeld_driver) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX shared library libblickfeld_driver_lib.so\x1b[0m\n'}
+[12.025819] (-) TimerEvent: {}
+[12.126072] (-) TimerEvent: {}
+[12.226281] (-) TimerEvent: {}
+[12.326489] (-) TimerEvent: {}
+[12.331950] (blickfeld_driver) StdoutLine: {'line': b'[ 92%] Built target blickfeld_driver_lib\n'}
+[12.338588] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver_node\x1b[0m\n'}
+[12.338727] (blickfeld_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blickfeld_driver_component\x1b[0m\n'}
+[12.389661] (blickfeld_driver) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/blickfeld_driver_node.dir/src/blickfeld_driver_node.cpp.o\x1b[0m\n'}
+[12.390074] (blickfeld_driver) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/blickfeld_driver_component.dir/src/blickfeld_driver_component.cpp.o\x1b[0m\n'}
+[12.426574] (-) TimerEvent: {}
+[12.526785] (-) TimerEvent: {}
+[12.627002] (-) TimerEvent: {}
+[12.727217] (-) TimerEvent: {}
+[12.827429] (-) TimerEvent: {}
+[12.927643] (-) TimerEvent: {}
+[13.027861] (-) TimerEvent: {}
+[13.128080] (-) TimerEvent: {}
+[13.228292] (-) TimerEvent: {}
+[13.328512] (-) TimerEvent: {}
+[13.428723] (-) TimerEvent: {}
+[13.528939] (-) TimerEvent: {}
+[13.629154] (-) TimerEvent: {}
+[13.729369] (-) TimerEvent: {}
+[13.829579] (-) TimerEvent: {}
+[13.929793] (-) TimerEvent: {}
+[14.030014] (-) TimerEvent: {}
+[14.130245] (-) TimerEvent: {}
+[14.230465] (-) TimerEvent: {}
+[14.319463] (blickfeld_driver) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable blickfeld_driver_node\x1b[0m\n'}
+[14.330543] (-) TimerEvent: {}
+[14.420134] (blickfeld_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libblickfeld_driver_component.so\x1b[0m\n'}
+[14.430633] (-) TimerEvent: {}
+[14.530846] (-) TimerEvent: {}
+[14.585202] (blickfeld_driver) StdoutLine: {'line': b'[100%] Built target blickfeld_driver_component\n'}
+[14.619908] (blickfeld_driver) StdoutLine: {'line': b'[100%] Built target blickfeld_driver_node\n'}
+[14.625978] (blickfeld_driver) CommandEnded: {'returncode': 0}
+[14.630923] (-) TimerEvent: {}
+[14.663609] (blickfeld_driver) JobProgress: {'identifier': 'blickfeld_driver', 'progress': 'install'}
+[14.669658] (blickfeld_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver'], 'cwd': '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'jeongil'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1732'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/lib64:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_pointcloud/lib:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_driver/lib:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_msgs/lib:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_laserscan/lib:/home/jeongil/ros_foxy_ws/velodyne_ws/install/cloud_msgs/lib:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/lib'), ('HOME', '/home/jeongil'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jeongil'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1536'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jeongil/ros_foxy_ws/velodyne_ws/install:/home/jeongil/ros_foxy_ws/blickfeld_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jeongil'), ('JOURNAL_STREAM', '8:53654'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jeongil'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/jeongil/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin'), ('SESSION_MANAGER', 'local/jeongil-System-Product-Name:@/tmp/.ICE-unix/1768,unix/jeongil-System-Product-Name:/tmp/.ICE-unix/1768'), ('INVOCATION_ID', '1ff3851a037c44a48ae7acefe3a060f8'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/09d94451_a29f_4db0_b11a_69896f27325d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2604'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_pointcloud:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_driver:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_msgs:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_laserscan:/home/jeongil/ros_foxy_ws/velodyne_ws/install/lego_loam_sr:/home/jeongil/ros_foxy_ws/velodyne_ws/install/cloud_msgs:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/jeongil/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jeongil/ros_foxy_ws/blickfeld_ws/build/blickfeld_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jeongil/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_msgs/lib/python3.8/site-packages:/home/jeongil/ros_foxy_ws/velodyne_ws/install/cloud_msgs/lib/python3.8/site-packages:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud/lib/python3.8/site-packages:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.7/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_pointcloud:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_driver:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_msgs:/home/jeongil/ros_foxy_ws/velodyne_ws/install/velodyne_laserscan:/home/jeongil/ros_foxy_ws/velodyne_ws/install/lego_loam_sr:/home/jeongil/ros_foxy_ws/velodyne_ws/install/cloud_msgs:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver:/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_pointcloud:/opt/ros/foxy')]), 'shell': False}
+[14.675386] (blickfeld_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.675509] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/ament_index/resource_index/rosidl_interfaces/blickfeld_driver\n'}
+[14.675565] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver\n'}
+[14.675616] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv\n'}
+[14.675648] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/set_scan_pattern.h\n'}
+[14.675678] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail\n'}
+[14.675718] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__struct.h\n'}
+[14.675767] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__functions.c\n'}
+[14.675796] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__functions.h\n'}
+[14.675829] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__type_support.h\n'}
+[14.675871] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__functions.h\n'}
+[14.675910] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__functions.c\n'}
+[14.675937] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__struct.h\n'}
+[14.675965] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__type_support.h\n'}
+[14.675995] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/imu_static_transformation.h\n'}
+[14.676036] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg\n'}
+[14.676064] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.676091] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/library_path.sh\n'}
+[14.676130] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/library_path.dsv\n'}
+[14.676170] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_generator_c.so\n'}
+[14.676294] (blickfeld_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_generator_c.so" to ""\n'}
+[14.676333] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver\n'}
+[14.676372] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv\n'}
+[14.676417] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail\n'}
+[14.676455] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__rosidl_typesupport_fastrtps_c.h\n'}
+[14.676483] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__rosidl_typesupport_fastrtps_c.h\n'}
+[14.676523] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg\n'}
+[14.676548] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.676573] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_fastrtps_c.so\n'}
+[14.676668] (blickfeld_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.676708] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver\n'}
+[14.676737] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv\n'}
+[14.676775] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail\n'}
+[14.676822] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.676852] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/dds_fastrtps\n'}
+[14.676879] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.676907] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg\n'}
+[14.676949] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.676976] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.677057] (blickfeld_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.677098] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver\n'}
+[14.677138] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv\n'}
+[14.677165] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail\n'}
+[14.677192] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__rosidl_typesupport_introspection_c.h\n'}
+[14.677233] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__type_support.c\n'}
+[14.677270] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__type_support.c\n'}
+[14.677297] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__rosidl_typesupport_introspection_c.h\n'}
+[14.677324] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg\n'}
+[14.677366] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.677393] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_introspection_c.so\n'}
+[14.677472] (blickfeld_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.677523] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_c.so\n'}
+[14.677639] (blickfeld_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_c.so" to ""\n'}
+[14.677673] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver\n'}
+[14.677715] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv\n'}
+[14.677744] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/set_scan_pattern.hpp\n'}
+[14.677784] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail\n'}
+[14.677813] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__type_support.hpp\n'}
+[14.677840] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__traits.hpp\n'}
+[14.677878] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__builder.hpp\n'}
+[14.677926] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__traits.hpp\n'}
+[14.677955] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__struct.hpp\n'}
+[14.677983] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__builder.hpp\n'}
+[14.678011] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__type_support.hpp\n'}
+[14.678060] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__struct.hpp\n'}
+[14.678097] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/imu_static_transformation.hpp\n'}
+[14.678126] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg\n'}
+[14.678153] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[14.678180] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver\n'}
+[14.678206] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv\n'}
+[14.678244] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail\n'}
+[14.678291] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__type_support.cpp\n'}
+[14.678316] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__type_support.cpp\n'}
+[14.678340] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/set_scan_pattern__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.678366] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/blickfeld_driver/srv/detail/imu_static_transformation__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.678390] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_introspection_cpp.so\n'}
+[14.678425] (blickfeld_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.678476] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_cpp.so\n'}
+[14.678599] (blickfeld_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__rosidl_typesupport_cpp.so" to ""\n'}
+[14.678635] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/pythonpath.sh\n'}
+[14.678674] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/pythonpath.dsv\n'}
+[14.678748] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/__init__.py\n'}
+[14.695938] (blickfeld_driver) StdoutLine: {'line': b"Compiling '/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/__init__.py'...\n"}
+[14.698061] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/srv\n'}
+[14.698101] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/srv/_imu_static_transformation_s.c\n'}
+[14.698154] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/srv/_imu_static_transformation.py\n'}
+[14.698195] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/srv/_set_scan_pattern_s.c\n'}
+[14.698246] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/srv/_set_scan_pattern.py\n'}
+[14.698370] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/srv/__init__.py\n'}
+[14.698551] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.698801] (blickfeld_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[14.698901] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.699169] (blickfeld_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[14.699297] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.699555] (blickfeld_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/python3.8/site-packages/blickfeld_driver/blickfeld_driver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[14.699603] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__python.so\n'}
+[14.699715] (blickfeld_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver__python.so" to ""\n'}
+[14.699761] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/srv/ImuStaticTransformation.idl\n'}
+[14.699806] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/srv/SetScanPattern.idl\n'}
+[14.699860] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/srv/ImuStaticTransformation.srv\n'}
+[14.699904] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/srv/ImuStaticTransformation_Request.msg\n'}
+[14.699949] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/srv/ImuStaticTransformation_Response.msg\n'}
+[14.699993] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/srv/SetScanPattern.srv\n'}
+[14.700037] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/srv/SetScanPattern_Request.msg\n'}
+[14.700081] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/srv/SetScanPattern_Response.msg\n'}
+[14.700126] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/library_path.sh\n'}
+[14.700169] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/library_path.dsv\n'}
+[14.700214] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver_lib.so\n'}
+[14.701678] (blickfeld_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver_lib.so" to ""\n'}
+[14.701728] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver_component.so\n'}
+[14.701968] (blickfeld_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver_component.so" to ""\n'}
+[14.702032] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/blickfeld_driver/blickfeld_driver_node\n'}
+[14.702199] (blickfeld_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/blickfeld_driver/blickfeld_driver_node" to ""\n'}
+[14.702255] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/\n'}
+[14.702284] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver\n'}
+[14.702310] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver/blickfeld_driver.h\n'}
+[14.702356] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver/blickfeld_driver_ros_types.h\n'}
+[14.702408] (blickfeld_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include/\n'}
+[14.702438] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver_core\n'}
+[14.702466] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver_core/blickfeld_driver_utils.h\n'}
+[14.702513] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver_core/blickfeld_driver_point_cloud_parser.h\n'}
+[14.702543] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver_core/blickfeld_driver_imu_parser.h\n'}
+[14.702619] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver_core/blickfeld_driver_types.h\n'}
+[14.702648] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/include//blickfeld_driver_core/blickfeld_driver_core.h\n'}
+[14.702676] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/launch\n'}
+[14.702730] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/launch/live_scanner.launch.xml\n'}
+[14.702756] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/launch/live_scanner_component.launch.py\n'}
+[14.702781] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/launch/live_scanner_node.launch.py\n'}
+[14.702821] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/config\n'}
+[14.702848] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/config/driver_config.yaml\n'}
+[14.702874] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/config/blickfeld_scanner.rviz\n'}
+[14.702900] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/ament_index/resource_index/package_run_dependencies/blickfeld_driver\n'}
+[14.702927] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/ament_index/resource_index/parent_prefix_path/blickfeld_driver\n'}
+[14.702971] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/ament_prefix_path.sh\n'}
+[14.703039] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/ament_prefix_path.dsv\n'}
+[14.703066] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/path.sh\n'}
+[14.703092] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/environment/path.dsv\n'}
+[14.703118] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/local_setup.bash\n'}
+[14.703144] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/local_setup.sh\n'}
+[14.703187] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/local_setup.zsh\n'}
+[14.703247] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/local_setup.dsv\n'}
+[14.703273] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/package.dsv\n'}
+[14.703297] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/ament_index/resource_index/packages/blickfeld_driver\n'}
+[14.703349] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_generator_cExport.cmake\n'}
+[14.703375] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.703427] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.703473] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.703543] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_typesupport_cExport.cmake\n'}
+[14.703587] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.703652] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_generator_cppExport.cmake\n'}
+[14.703730] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.703774] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.703865] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_typesupport_cppExport.cmake\n'}
+[14.703910] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driver__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.703968] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/ament_index/resource_index/rclcpp_components/blickfeld_driver\n'}
+[14.704060] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/rosidl_cmake-extras.cmake\n'}
+[14.704086] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.704152] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.704180] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.704218] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.704261] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.704286] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.704327] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driverConfig.cmake\n'}
+[14.704352] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/cmake/blickfeld_driverConfig-version.cmake\n'}
+[14.704388] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/share/blickfeld_driver/package.xml\n'}
+[14.704565] (blickfeld_driver) StdoutLine: {'line': b'-- Installing: /home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver_core.so\n'}
+[14.707430] (blickfeld_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/jeongil/ros_foxy_ws/blickfeld_ws/install/blickfeld_driver/lib/libblickfeld_driver_core.so" to ""\n'}
+[14.708530] (blickfeld_driver) CommandEnded: {'returncode': 0}
+[14.731030] (-) TimerEvent: {}
+[14.831290] (-) TimerEvent: {}
+[14.931844] (-) TimerEvent: {}
+[14.938056] (blickfeld_driver) JobEnded: {'identifier': 'blickfeld_driver', 'rc': 0}
+[14.938459] (-) EventReactorShutdown: {}
