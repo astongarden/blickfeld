@@ -25,12 +25,13 @@ class PCPub(Node):
             pcd = o3d.geometry.PointCloud()
             pcd.points = o3d.utility.Vector3dVector(pointcloud)
             # downsampling
-            pcd_down = pcd.voxel_down_sample(voxel_size=0.02)
-            # remove outliers
-            pcd_remove, inliers = pcd_down.remove_radius_outlier(nb_points=16, radius=0.1)
-            # segment plane with RANSAC
-            plane_model, road_inliers = pcd_remove.segment_plane(distance_threshold=0.08, ransac_n=6, num_iterations=700)
+            pcd_down = pcd.voxel_down_sample(voxel_size=0.01)
+            #  remove outliers
+            pcd_remove, inliers = pcd_down.remove_radius_outlier(nb_points=25, radius=0.1)
+            #  segment plane with RANSAC
+            plane_model, road_inliers = pcd_remove.segment_plane(distance_threshold=0.05, ransac_n=6, num_iterations=600)
             pcd_RANSAC = pcd_remove.select_by_index(road_inliers, invert=True)
+
 
 
             self.pointRANSAC = np.asarray(pcd_RANSAC.points).astype(np.float32)
